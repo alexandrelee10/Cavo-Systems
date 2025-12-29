@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cossette+Titre:wght@400;700&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
